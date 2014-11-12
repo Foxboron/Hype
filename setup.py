@@ -20,7 +20,10 @@ from setuptools import find_packages, setup
 setup(
     name="hype",
     version="0.1.0",
-    install_requires = ['hy>=0.10'],
+    install_requires = ['hy>=0.10','typeannotations>=1.0.0'],
+    dependency_links = [
+        'http://github.com/ceronman/typeannotations/tarball/master#egg=typeannotations-1.0.0',
+    ],
     packages=find_packages(exclude=['tests']),
     package_data={
         'hype': ['*.hy'],
