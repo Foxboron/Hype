@@ -2,7 +2,7 @@ Hype
 ====
 The Hype is Real!
 
-With the help of the (typeannotations)[https://github.com/ceronman/typeannotations] you can have types, AND type checking with Hy! 
+With the help of the [typeannotations]( https://github.com/ceronman/typeannotations ) you can have types, AND type checking with Hy! 
 
 Work in progress!
 
